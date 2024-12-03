@@ -1,0 +1,112 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://img.freepik.com/vetores-gratis/fundo-de-gradiente-brilhante-geometrico-colorido_361591-4153.jpg?ga=GA1.1.667180713.1726873141&semt=ais_hybrid");
+    background-size: cover;
+    background-position: center;
+    color: #8741b6; /* Adicionado */
+  }
+  
+  header {
+    background-image: linear-gradient(to bottom, #7843e6, #8741b6);
+    color: #7a1111; /* Alterado */
+    padding: 7px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    left: 0;
+  }
+
+  header img {
+    height: 50px; /* Ajusta o tamanho da imagem */
+    max-width: 100%; /* Impede que ultrapasse os limites */
+}
+
+  .navegacao ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .busca {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+  }
+  
+  .busca input[type="search"],
+  .busca button {
+    border-radius: 30px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .busca input[type="search"] {
+    width: 100px;
+    background-color: #6200ff;
+  }
+  
+  .busca button {
+    width: 50px;
+    margin: 20px;
+    background-color: #ffdb0d;
+    color: #000000;
+  }
+  
+  
+  .destaque {
+    text-align: center;
+    margin: 20px auto;
+    padding: 50px 20px;
+  }
+  .carousel img {
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(255, 238, 0);
+  }
+  .carousel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .animes-populares ul {
+    list-style: none;
+    padding: 8;
+    margin: 6;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .animes-populares li {
+    margin: 20px;
+    width: calc(14.28% - 60px);
+  }
+  
+  .animes-populares img {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(247, 247, 247);
+  }
+  
+  .animes-populares p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 2px;
+    color: #FFFFFF; /* Adicionado */
+    
+  }
+  footer p {
+    margin: 20px auto; /* Distância entre parágrafo e elementos adjacentes */
+    text-align: center; /* Centralizar texto */
+  }
