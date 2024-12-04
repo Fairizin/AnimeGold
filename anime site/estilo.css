@@ -54,13 +54,13 @@ body {
   
   .busca input[type="search"] {
     width: 100px;
-    background-color: #6200ff;
+    background-color: #663399;
   }
   
   .busca button {
     width: 50px;
     margin: 20px;
-    background-color: #ffdb0d;
+    background-color: #9370DB;
     color: #000000;
   }
   
@@ -81,12 +81,17 @@ body {
     gap: 20px;
   }
   
+  h2{
+    text-align: center;
+  }
+
   .animes-populares ul {
     list-style: none;
     padding: 8;
     margin: 6;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   
   .animes-populares li {
